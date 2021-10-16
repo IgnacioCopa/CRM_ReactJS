@@ -1,0 +1,10 @@
+.nav_act{
+
+    align-self: center;
+}
+
+.select:hover{
+
+    background: #abd1f3;
+    cursor: pointer;
+}

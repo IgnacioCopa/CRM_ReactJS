@@ -1,0 +1,173 @@
+*{
+    list-style: none;
+    
+}
+.Position_nav{
+    --bs-breadcrumb-divider: '';
+}
+
+img:hover{
+
+    outline: auto;
+    cursor: pointer;
+}
+
+.nav_bar:hover{
+
+    background: #212529;
+    opacity: 0.5;
+}
+
+.menu{
+    display: flex;
+}
+
+.responsive_menu{
+    display: none;
+    
+}
+
+#box_content{
+    display: flex;
+}
+
+a img{
+    background: white;
+    border-radius: 40px;
+    width: 12%;
+    margin: 0 5%;
+}
+
+.char2{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: white ;
+    width: 30%;
+}
+
+.search_{
+    width: 30%;
+    display: flex;
+}
+
+.char{
+    font-size: 13px;
+}
+
+.login{
+    position: absolute;
+    top: 25%;
+    left: 36%;
+    width: 300px;
+    padding: 30px 20px;
+    background: cornflowerblue;
+    border-radius: 10px;
+    display: none;
+}
+
+.turnOff_container{
+    display: none;
+    justify-content: flex-end;
+    
+}
+
+.turnOff_container:hover{
+    background: #212529;
+    color: white;
+    
+}
+
+.turnOff{
+
+    position: absolute;
+    top: 77px;
+    padding: 17px 78px;
+    color: white;
+    background: #0d6efd;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.turnOff:hover{
+    background-color: #212529;
+}
+
+.turnOff_logo{
+
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+/*Tablets-------------------------------------------------*/
+@media screen and (max-width:1300px){
+
+    .char{
+        display: none;
+        
+    }
+
+    .char2{
+        width: 65%;
+    }
+
+    .search_{
+        width: 100%;
+    }
+
+    .perfil{
+        display: none;
+    }
+
+}
+
+p{
+    margin: 0;
+}
+
+
+/*Phones-------------------------------------------------*/
+@media screen and (max-width:816px){
+
+    .char{
+        display: block;
+    }
+    
+    .menu{
+        display: none;
+    }
+
+    .breadcrumb-item{
+        margin-top: 4%;
+        padding-top: 4%;
+    }
+
+
+    #block_menu{
+        display: block;
+    }
+
+    .responsive_menu{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .login{
+        left: 20%;
+    }
+
+}
+
+@media screen and (min-width:816px){
+
+    .menu{
+        display: flex !important;
+    }
+
+    #block_menu{
+        display: flex !important;
+    }
+
+
+}
